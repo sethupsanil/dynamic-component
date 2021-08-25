@@ -5,9 +5,11 @@ import { AdComponent } from './ad.component';
 @Component({
   template: `
     <div class="job-ad">
-      <h4 (click)="testEmit()">{{headline}}</h4>
-{{data}}
-      {{body }}
+      <h4 >{{headline}}</h4>
+
+      {{body }} <br>
+      <button (click)="testEmit()" type="submit">Click to dynamic event</button>
+
     </div>
   `
 })

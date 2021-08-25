@@ -21,6 +21,7 @@ export class AppComponent implements OnInit {
   }
   customEventCreated(event: any) {
     console.log(event);
+    alert(JSON.stringify(event))
   }
 }
 
